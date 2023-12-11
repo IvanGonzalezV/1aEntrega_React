@@ -3,7 +3,7 @@ import './ItemListContainer.css';
 
 const ItemListContainer = () => {
     return (
-        <div className='ItemListContainer' style={{ width: "100%", textAlign: "center", padding: "5px", marginTop: "299px", position: "fixed", zIndex: "1" }}>
+        <div className='ItemListContainer' style={{ width: "100%", textAlign: "center", padding: "5px", marginTop: "271px", position: "fixed", zIndex: "1" }}>
             <h2>U Need IT, We Got IT!!</h2>
         </div>
     )
