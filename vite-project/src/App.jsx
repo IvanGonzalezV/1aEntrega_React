@@ -36,7 +36,7 @@ class App extends React.Component {
         <NavBar />
         <ItemListContainer />
 
-        <div className="UserSection">
+        <div className="UserSectiona">
           <UserCard
             img="https://www.lifewire.com/thmb/-XzfSzwECtdVWm0dcHvrKaskquY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-182145942IvanWuPI-59270da13df78cbe7ef31ca8.jpg"
             name={user1}
