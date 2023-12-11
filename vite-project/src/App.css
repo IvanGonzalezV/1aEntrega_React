@@ -10,10 +10,37 @@
   align-items: center;
 }
 
+/* Fija el Header en la parte superior */
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Fija el NavBar debajo del Header */
+.NavBar {
+  position: fixed;
+  top: 295px;
+  /* Ajusta esto según la altura de tu Header para evitar superposición */
+  width: 100%;
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 999;
+}
+
+
+
 .UserSection {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin-top: 450px;
   width: 90%;
 }
 
